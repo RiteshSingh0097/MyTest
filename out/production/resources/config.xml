@@ -65,7 +65,8 @@
         <constructor-arg ref="tea"/>
     </bean>
     <bean id="byCons" class="exe.Restaurant" autowire="constructor"/>
-    
+
+<!--    Question 9-->
     <context:annotation-config/>
     <context:component-scan base-package="exe"/>
 
